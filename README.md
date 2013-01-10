@@ -55,4 +55,7 @@ We just need to tell requestr to GO!
 $example_page->go();
 ```
 
+### Also...
+You can also specify attributes within the page class by adding a public variable called $requestr_attributes (typically you would use an array). These are accessible via requestr::getAttributes().
+
 For a working example, see "examples/example.php".

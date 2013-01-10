@@ -54,6 +54,11 @@
 				echo '<br/>Requestr Error: File '. $this->_page_classname .'.php not found in folder '. $folder;
 			}
 		}
+
+		public function getAttributes()
+		{
+			return $this->_page_class->requestr_attributes;
+		}
 		
 		public function run()
 		{

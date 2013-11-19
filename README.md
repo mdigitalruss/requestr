@@ -49,10 +49,10 @@ public function subaction_news()
 ```
 
 ### And finally..
-We just need to tell requestr to GO!
+We just need to tell requestr to run
 
 ```PHP
-$example_page->go();
+$example_page->run();
 ```
 
 ### Also...

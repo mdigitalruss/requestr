@@ -1,10 +1,10 @@
 <?php
-
 /*
  * requestr.php
  * Simple PHP request/inclusion system
- * Copyright (c) 2013 Razor Studios
+ * Copyright (c) 2015 Russell Peterson & Daniel Evans - helical.io
  */
+
 namespace helical\requestr;
 
 class router
@@ -21,7 +21,6 @@ class router
     
     ########## Public functions ##########
 
-    
     // __construct - preload the php script
     public function __construct($file, $method, $folder)
     {
